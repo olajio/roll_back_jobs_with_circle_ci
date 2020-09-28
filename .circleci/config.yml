@@ -6,7 +6,7 @@ commands:
     parameters:
       to:
         type: string
-        default: $CIRCLE_WORKFLOW_ID
+        default: "my-infra"
     steps:
       - run: echo << parameters.to >>
       - run:
